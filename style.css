@@ -1,0 +1,77 @@
+body{
+    background-color: purple;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+#cont{
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 30vw;
+    /* height: 30vh; */
+    margin: auto;
+    padding: 10px 20px 0px;
+}
+
+#body, #head{
+    position: relative;
+    margin: 20px 0px;
+}
+
+#body{
+    margin-top: 80px;
+}
+#text{
+    position: absolute;
+    font-size: 18px;
+    height: 20px;
+    outline: none;
+    border-radius: 5px;
+    width: 65%;
+    background-color: rgba(255, 255, 255, 0.082);
+    padding: 5px 20px;
+}
+#copy{
+    color: white;
+    background-color: rgba(0, 119, 255, 0.637);
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+#copy:hover{
+    background-color: rgba(0, 26, 255, 0.678);
+    color: whitesmoke;
+}
+
+.form{
+    margin: 5px 0px;
+}
+#length{
+    width: 30px;
+}
+.edit{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+#generate{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 20px;
+    background-color: rgb(255, 179, 0);
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}

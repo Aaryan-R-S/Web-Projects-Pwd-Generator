@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassGen | Retaliy</title>
+    <link rel="icon" href="padlock.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="cont">
+        <h2 style="text-align: center;">Password Generator</h2>
+        <div id="head">
+            <div id="display">
+                <div id="text"></div>
+                <button id="copy">Copy</button>
+            </div>
+        </div>
+        <div id="body">
+            <div class="form">
+                <label for="length">Password Length</label><input class="edit" type="number" id="length" min="1" max="20">
+            </div>
+            <div class="form">
+                <label for="upper">Contains Uppercase Letters</label><input class="edit" type="checkbox" id="upper">
+            </div>
+            <div class="form">
+                <label for="lower">Contains Lowercase Letters</label><input class="edit" type="checkbox" id="lower">
+            </div>
+            <div class="form">
+                <label for="numbers">Contains Numbers</label><input class="edit" type="checkbox" id="numbers">
+            </div>
+            <div class="form">
+                <label for="symbol">Contains Symbols</label><input class="edit" type="checkbox" id="symbol">
+            </div>
+            <div class="form">
+                <button id="generate">Generate Password !</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
